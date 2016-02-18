@@ -20,7 +20,6 @@
       ?>
     </div>
   <?php endif; ?>
-  <?php echo "Hello World" ?>
   <div class="content clearfix"<?php print $content_attributes; ?>>
     <?php
       hide($content['comments']);
